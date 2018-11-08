@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilos/restom.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    </head>
+    <style>
+        *{
+            font-family: 'Ubuntu', sans-serif;
+        }
+        input[type="submit"]{
+            width: 50%;
+            padding: 10px;
+            margin-bottom: 20px;
+            background-color: lightgreen;
+        }
+        .btnAdd{
+            background-image: url(img/plus-sign-in-a-black-circle.png);
+            background-repeat: no-repeat;
+            background-position: 400px;
+        }
+        .btnExibir{
+             background-image: url(img/phone-book.png);
+            background-repeat: no-repeat;
+            background-position: 400px;
+
+        }
+        .btnAlterar{
+           background-image: url(img/settings.png);
+            background-repeat: no-repeat;
+            background-position: 400px;
+        }
+        .btxExcluir{
+             background-image: url(img/icon.png);
+            background-repeat: no-repeat;
+            background-position: 400px;
+        }
+         .btnPesquisar{
+             background-image: url(img/zoom-out.png);
+            background-repeat: no-repeat;
+            background-position: 400px;
+        }
+    </style>
+
+    <body>
+        <div align="center">
+
+            <h1> Agenda Telefonica</h1>  
+
+            <!-- Botao Adicionar -->
+            <div class="tamanho">
+                <div class="linha">
+                    <div class="col-dg-12"> 
+                        <form action="cadastro.jsp" >
+                            <input type="submit" value="Adicionar Contato" class="btnAdd">                           
+                        </form>
+
+                    </div> 
+                </div>  
+
+                <!-- Botao Exibir -->
+
+                <div class="linha">
+                    <div class="col-dg-12"> 
+                        <form action="Control2">
+                            <input type="submit" value="Exibir Contatos" class="btnExibir">                           
+                        </form>
+
+                    </div> 
+                </div> 
+
+                <!-- Botao Alterar -->
+                <div class="linha">
+                    <div class="col-dg-12"> 
+                        <form action="action">
+                            <input type="submit" value="Alterar Contato" class="btnAlterar">                           
+                        </form>
+
+                    </div> 
+                </div> 
+
+                <!-- Botao Excluir -->
+                <div class="linha">
+                    <div class="col-dg-12"> 
+                        <form action="Excluir">
+                            <input type="submit" value="Excluir Contato" class="btxExcluir">                           
+                        </form>
+
+                    </div> 
+                </div> 
+
+                <!-- Botao Pesquisar -->
+                <div class="linha">
+                    <div class="col-dg-12"> 
+                        <form action="pesquisar.jsp">
+                            <input type="submit" value="Pesquisar Contato" class="btnPesquisar">                           
+                        </form>
+
+                    </div> 
+                </div> 
+            </div>     
+
+        </div>
+    </body>
+</html>
